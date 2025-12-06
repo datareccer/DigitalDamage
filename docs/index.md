@@ -1,3 +1,5 @@
+{% include "assets/header.html" %}
+
 # **DigitalDamage**
 
 Welcome to the official documentation hub for the DigitalDamage Engineering Stack.
