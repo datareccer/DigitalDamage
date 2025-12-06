@@ -1,0 +1,35 @@
+.dd-header {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background: #0d0d0f;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #222;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+.dd-logo {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ff2d95;
+}
+
+.dd-header-right .dd-link {
+    margin-left: 18px;
+    color: #9bb0ff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.dd-header-right .dd-link:hover {
+    color: #ffffff;
+}
+
+.dd-divider {
+    border: none;
+    border-bottom: 1px solid #222;
+    margin: 0 0 20px 0;
+}

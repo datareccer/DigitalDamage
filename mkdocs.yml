@@ -1,25 +1,16 @@
 site_name: DigitalDamage Documentation
-site_url: https://datareccer.github.io/DigitalDamage
-site_description: Engineering-grade adaptive tooling, diagnostics, and operational intelligence.
+site_description: "Operational engineering, diagnostics, and adaptive intelligence platform."
+site_url: https://datareccer.github.io/DigitalDamage/
 
 theme:
   name: material
   palette:
-    scheme: default
     primary: indigo
     accent: pink
-
-nav:
-  - Home: index.md
-  - Products:
-      - FleetSense: docs/fleetsense.md
-      - SMTP-Intruder: docs/smtp_intruder.md
-      - AutoEX: docs/autoex.md
-      - GhostShell: docs/ghostshell.md
-      - Products Overview: docs/products.md
-  - Company:
-      - About: docs/about.md
-      - Contact: docs/contact.md
+  features:
+    - navigation.top
+    - navigation.tabs
+    - content.code.copy
 
 extra_css:
   - assets/custom.css
@@ -31,3 +22,15 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/datareccer
+
+nav:
+  - Home: index.md
+  - Products:
+      - FleetSense: docs/fleetsense.md
+      - SMTP-Intruder: docs/smtp_intruder.md
+      - AutoEx: docs/autoex.md
+      - GhostShell: docs/ghostshell.md
+      - Products Overview: docs/products.md
+  - Company:
+      - About: docs/about.md
+      - Contact: docs/contact.md
