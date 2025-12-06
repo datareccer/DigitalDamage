@@ -1,10 +1,29 @@
-# DigitalDamage  
-Welcome to the DigitalDamage ecosystem — a suite of elite-grade tools engineered for diagnostics, penetration workflows, and operational intelligence.
+# **DigitalDamage**
 
-## Products
-- **GhostShell** – Adaptive penetration browser
-- **Auto-Ex** – Advanced OBD-II diagnostic intelligence
-- **FleetSense** – Fleet monitoring & telemetry integration
-- **SMTP-Intruder** – Adaptive recovery & protocol testing engine
+Welcome to the official documentation hub for the DigitalDamage Engineering Stack.
 
-Navigate using the links above.
+---
+
+## 🚀 Product Suite
+
+### **FleetSense**
+High-performance telemetry, routing intelligence, and operational diagnostics.
+
+### **AutoEX**
+Next-gen automotive diagnostic workflows with adaptive analysis logic.
+
+### **GhostShell**
+Security-focused execution shell with modular plugins and rapid-deploy tooling.
+
+### **SMTP-Intruder**
+Adaptive protocol intelligence and operational recovery automation.
+
+---
+
+## 📘 Documentation
+Use the navigation menu to access detailed docs for each subsystem.
+
+---
+
+## 🛰 Mission
+DigitalDamage exists to push engineering boundaries and operational capability far beyond standard tooling.
