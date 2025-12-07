@@ -1,36 +1,19 @@
-site_name: DigitalDamage Documentation
-site_description: "Operational engineering, diagnostics, and adaptive intelligence platform."
-site_url: https://datareccer.github.io/DigitalDamage/
-
+site_name: DigitalDamage Docs
 theme:
   name: material
-  palette:
-    primary: indigo
-    accent: pink
   features:
-    - navigation.top
-    - navigation.tabs
-    - content.code.copy
-
-extra_css:
-  - assets/custom.css
-
-extra_javascript:
-  - assets/custom.js
-
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/datareccer
-
+    - navigation.instant
+    - navigation.sections
+    - toc.integrate
 nav:
   - Home: index.md
   - Products:
-      - FleetSense: docs/fleetsense.md
-      - SMTP-Intruder: docs/smtp_intruder.md
-      - AutoEx: docs/autoex.md
-      - GhostShell: docs/ghostshell.md
-      - Products Overview: docs/products.md
+      - FleetSense: fleetsense.md
+      - SMTP-Intruder: smtp_intruder.md
+      - GhostShell: ghostshell.md
+      - AutoEX: autoex.md
+      - Overview: products.md
+  - Architecture: architecture.md
   - Company:
-      - About: docs/about.md
-      - Contact: docs/contact.md
+      - About: about.md
+      - Contact: contact.md
