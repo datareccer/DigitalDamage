@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../ghostshell/">
+        <link rel="prev" href="../products/">
       
       
-        <link rel="next" href="../products/">
+        <link rel="next" href="../about/">
       
       
         
@@ -23,7 +23,7 @@
     
     
       
-        <title>AutoEX - DigitalDamage Docs</title>
+        <title>Architecture - DigitalDamage Docs</title>
       
     
     
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#auto-ex-documentation" class="md-skip">
+        <a href="#platform-architecture" class="md-skip">
           Skip to content
         </a>
       
@@ -100,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              AutoEX
+              Architecture
             
           </span>
         </div>
@@ -222,8 +222,6 @@
       
   
   
-    
-  
   
   
     
@@ -236,11 +234,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
@@ -261,7 +259,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -360,19 +358,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../autoex/" class="md-nav__link">
         
   
   
@@ -388,7 +377,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -433,10 +421,37 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../architecture/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Architecture
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -452,6 +467,48 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#core-tenets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Tenets
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#high-level-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        High-Level Diagram
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -588,9 +645,20 @@
 
 
 
-<p>{% include "assets/header.html" %}</p>
-<h1 id="auto-ex-documentation">Auto-Ex Documentation</h1>
-<p>Technical architecture, OBD-II mapping logic, and data flow breakdown.</p>
+<h1 id="platform-architecture">Platform Architecture</h1>
+<p>DigitalDamage operates on a modular intelligence core with isolated subsystems.
+The platform is engineered for resilience, observability, and rapid adaptation.</p>
+<h2 id="core-tenets">Core Tenets</h2>
+<ol>
+<li><strong>Isolation-first design:</strong> No subsystem shares memory or execution context.</li>
+<li><strong>Stateless routing:</strong> Every request is normalized before intelligence handling.</li>
+<li><strong>Deterministic auditability:</strong> Every flow is logged, indexed, and replayable.</li>
+<li><strong>Adaptive intelligence core:</strong> Learns from outcomes and reshapes preferred pathways.</li>
+</ol>
+<h2 id="high-level-diagram">High-Level Diagram</h2>
+<pre><code class="language-mermaid">flowchart LR
+    Ingest --&gt; Normalizer --&gt; Intelligence --&gt; Router --&gt; Output
+</code></pre>
 
 
 

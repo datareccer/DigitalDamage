@@ -1,35 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-         <loc>https://datareccer.github.io/DigitalDamage/</loc>
-         <lastmod>2025-12-06</lastmod>
-    </url>
-    <url>
-         <loc>https://datareccer.github.io/DigitalDamage/about/</loc>
-         <lastmod>2025-12-06</lastmod>
-    </url>
-    <url>
-         <loc>https://datareccer.github.io/DigitalDamage/autoex/</loc>
-         <lastmod>2025-12-06</lastmod>
-    </url>
-    <url>
-         <loc>https://datareccer.github.io/DigitalDamage/contact/</loc>
-         <lastmod>2025-12-06</lastmod>
-    </url>
-    <url>
-         <loc>https://datareccer.github.io/DigitalDamage/fleetsense/</loc>
-         <lastmod>2025-12-06</lastmod>
-    </url>
-    <url>
-         <loc>https://datareccer.github.io/DigitalDamage/ghostshell/</loc>
-         <lastmod>2025-12-06</lastmod>
-    </url>
-    <url>
-         <loc>https://datareccer.github.io/DigitalDamage/products/</loc>
-         <lastmod>2025-12-06</lastmod>
-    </url>
-    <url>
-         <loc>https://datareccer.github.io/DigitalDamage/smtp_intruder/</loc>
-         <lastmod>2025-12-06</lastmod>
-    </url>
 </urlset>
